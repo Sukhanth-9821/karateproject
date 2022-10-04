@@ -1,0 +1,38 @@
+16:57:36.874 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+16:57:38.089 request:
+1 > POST https://juggernauttester.atlassian.net/rest/api/2/issue
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic a2FkYXJsYS5wcmFkZWVwNEBnbWFpbC5jb206TXRINDhMUkgzaWZqSzJsZlpSa20xQkY4
+1 > Connection: Keep-Alive
+1 > Content-Length: 162
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: juggernauttester.atlassian.net
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0)
+{"fields":{"project":{"key":"MYP"},"summary":"defect related to payments feaure","description":"This descrpition is given from table","issuetype":{"name":"Bug"}}}
+
+16:57:41.521 response time in milliseconds: 3401.43
+1 < 201
+1 < ATL-TraceId: 4d8fe67d6b446fbd
+1 < Cache-Control: no-cache, no-store, no-transform
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 18 Aug 2020 11:27:41 GMT
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Micros-Issuer: micros/edge-authenticator
+1 < Server: AtlassianProxy/1.15.8.1
+1 < Set-Cookie: atlassian.xsrf.token=b33ef59f-7df2-442c-860c-f8025d4c206c_2fd98ab1cf3434fe539316f3ce99081712e89018_lin; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < Timing-Allow-Origin: *
+1 < Transfer-Encoding: chunked
+1 < X-AACCOUNTID: 5f0be034e5efc1001b94fadb
+1 < X-AREQUESTID: 295bf98b-2e3d-4351-8238-a0bc2eec3eb8
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+{"id":"10142","key":"MYP-143","self":"https://juggernauttester.atlassian.net/rest/api/2/issue/10142"}
+
+16:57:41.531 [print] {
+  "id": "10142",
+  "key": "MYP-143",
+  "self": "https://juggernauttester.atlassian.net/rest/api/2/issue/10142"
+}
+
